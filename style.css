@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cat-moon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.form{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow:0 0  15px 0;
+    max-width: 450px;
+    padding: 22px;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    background: rgba(220, 220, 220, 0);
+  backdrop-filter: blur(10px);
+}
+.input-box{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.input-box input{
+    width: 100%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgba(185, 178, 178, 0.062);
+    outline: none;
+}
+
+.input-box input:focus{
+    background-color: gainsboro;
+    color: black;
+}
+.input-box label{
+    color: white;
+    font-family: Tektur;
+}
+.btn{
+    font-family: Tektur;
+}
